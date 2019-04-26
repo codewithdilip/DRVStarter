@@ -1,0 +1,79 @@
+@charset "ISO-8859-1";
+html {
+	background-color: #333;
+	text-align: center
+}
+
+body {
+	padding-top: 3em;
+}
+
+.shine, .chrome {
+	font-size: 3em;
+	font-variant: small-caps;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	font-weight: bold;
+}
+
+.links1 {
+	font-size: 150%;
+	font-style: italic;
+	color: #F2A736;
+}
+
+.links2 {
+	font-size: 150%;
+	font-style: italic;
+	color: #FEFEFE;	
+}
+
+.links3 {
+	font-size: 150%;
+	font-style: italic;
+	color: #35E659;	
+}
+
+.messages {
+	font-size: 200%;
+	font-style: italic;
+	color: #F9F97D;	
+}
+
+.shine {
+	background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+	-webkit-background-size: 150px;
+	color: rgba(255, 255, 255, 0.3);
+	-webkit-background-clip: text;
+	-webkit-animation-name: shine;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	text-shadow: 0 0px 0px rgba(255, 255, 255, 0.6);
+}
+
+.chrome {
+	background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
+	background-image: -webkit-linear-gradient(-40deg, transparent 0%, transparent 40%, #fff 50%, transparent 60%, transparent 100%);
+	-webkit-background-size: 200px;
+	color: rgba(255, 255, 255, 0.3);
+	-webkit-background-clip: text;
+	-webkit-animation-name: shine;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: infinite;
+	text-shadow: 0 0px 0px rgba(255, 255, 255, 0.6);
+}
+
+@-webkit-keyframes shine {
+	0%, 10% {
+		background-position: -1000px;
+	}
+	20% {
+		background-position: top left;
+	}
+	90% {
+		background-position: top right;
+	}
+	100% {
+		background-position: 1000px;
+	}
+}
