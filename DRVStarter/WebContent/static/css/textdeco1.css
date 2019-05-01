@@ -40,6 +40,12 @@ body {
 	color: #F9F97D;	
 }
 
+.errmsg{
+	font-size: 150%;
+	font-style: italic;
+	color: #ff0000;	
+}
+
 .shine {
 	background: #222 -webkit-gradient(linear, left top, right top, from(#222), to(#222), color-stop(0.5, #fff)) 0 0 no-repeat;
 	-webkit-background-size: 150px;

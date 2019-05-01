@@ -17,6 +17,12 @@
 	  
 	<servlet-mapping>  
 	 <servlet-name>drvstarterservlet</servlet-name>  
-	 <url-pattern>/welcome</url-pattern>  
+	 <url-pattern>/register</url-pattern>  
 	</servlet-mapping>    
+	
+	<servlet-mapping>  
+	 <servlet-name>drvstarterservlet</servlet-name>  
+	 <url-pattern>/login</url-pattern>  
+	</servlet-mapping> 
+	
 </web-app>
